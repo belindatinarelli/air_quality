@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Home</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <!--Bootstrap-->
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <!--Font-->
+  <!--font-family: 'Raleway', sans-serif;-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Icone-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <!--CSS-->
+  <script src="js/api.js"></script>
+  <!--JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js" integrity="sha256-qlku5J3WO/ehJpgXYoJWC2px3+bZquKChi4oIWrAKoI="
+    crossorigin="anonymous"></script>
+  <!--Handlebars-->
+</head>
+
+<body>
+
+  <!--HEADER-->
+  <div class="header">
+    <div class="center row title">
+      <p class="titolo col-12">Dove sei?</p>
+      <p class="sottotitolo col-12">Per conoscere la qualità della tua aria abbiamo bisogno di sapere dove sei:</p>
+    </div>
+
+    <!--TEXT AREA-->
+    <div class="container">
+      <div class="col-12 center">
+        <input class="input" type="text">
+
+        <button onclick="apri_risultati()" id="gps" class="gps">
+          <i class="material-icons icona_gps">
+            near_me
+          </i>
+        </button>
+
+        <button onclick="apri_risultati()" id="scopri">Scopri</button>
+      </div>
+      <!--Chiude col-12-->
+    </div>
+    <!--Chiude container-->
+  </div>
+  <!--Chiude header-->
+
+  <!--MAIN-->
+  <div id="main" class="container nascosto">
+    <p class="titolo_risultato col-12 center">
+      Prendi il controllo dell'aria che respiri.
+    </p>
+
+    <hr class="linea center">
+
+    <div class="container sezione2">
+
+      <div class="row">
+
+        <div class="col justify-content-md-center">
+          <div class="air_container">
+            <div id="air"></div>
+          </div>
+        </div>
+
+        <div class="col justify-content-md-center">
+          <div class="dati_container">
+            <div id="dati"></div>
+          </div>
+        </div>
+
+       <!-- <div class="row">
+          <div class="col-12">
+            <div id="meteo"></div>
+          </div>
+        </div>-->
+
+      </div>
+      <!--Chiude la Row-->
+    </div>
+    <!--Chiude la Sezione 2-->
+
+  </div>
+  <!--Chiude il MAIN-->
+
+
+  <!--FOOTER-->
+  <div class="container_footer">
+
+    <div class="footerline-1"></div>
+    <div class="footerline-2"></div>
+    <div class="container_text">
+      <p class="footer_txt">
+        - Belinda Tinarelli, ID2 -
+      </p>
+    </div>
+    
+  </div>
+  <!--Chiude il Footer-->
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+<script>
+
+</script>
+
+</html>

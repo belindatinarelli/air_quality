@@ -1,0 +1,244 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    line-height: unset !important;
+}
+
+*{
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*HEADER*/
+
+.header{
+    background-image: linear-gradient( #68BBB7, white);
+    background-image: url("../img/gif_veramente_brutta_fatta_da_me_medesima.gif");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+        background-attachment: fixed;
+    
+
+}
+
+p.titolo{
+    font-size: 70px;
+    color: #FFEFDF;
+    font-weight: 700;
+    text-align: center;
+    padding: 150px 50px 40px 50px;
+}
+
+p.sottotitolo{
+    font-size: 24px;
+    color: #FFEFDF;
+    font-weight: 700;
+    text-align: center;
+    padding: 0px 50px 70px 50px;
+}
+
+.input{
+    color: #FFEFDF;
+    background-color: #7DBAB7;
+    height: 50px;
+    width: 50%;
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+    padding: 15px;
+    outline: none;
+}
+
+#scopri{
+    color: #FFEFDF;
+    height: 50px;
+    width: 90px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #FE887A;
+    border: none;
+    padding: 15px;
+    outline: none;
+}
+
+#scopri:hover{
+    background-color: #F06852;
+    transition-duration: 0.2s ;
+}
+
+/*.gps{
+    background-color: #FE887A;
+    border: 5px solid #FE887A;
+    width: 150px;
+    height: 150px;
+    
+    border-radius: 100px;
+    
+}
+
+.gps:hover{
+    border: 5px solid #875863;
+    background: #875863;
+}
+
+.gps1{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icona_gps{
+    color: white;
+    font-size: 100px;
+}
+
+.material-icons{
+    line-height: unset !important;
+}
+
+/*.main{
+    background-color: #30344A;
+}*/
+
+.gps{
+    width: 50px;
+    height: 50px;
+    background-color: #7DBAB7;
+    border: none;
+    outline: none !important; 
+    
+}
+
+.icona_gps{
+    color: #FFEFDF;
+    font-size: 27px;
+    outline: none !important;
+}
+
+.icona_gps:hover{
+    color: #FFEFDF;
+    font-size: 37px;
+    transition-duration: 0.2s ;
+}
+
+.material-icons{
+    line-height: unset !important;
+    outline: none !important;
+}
+
+
+/*BODY*/
+
+.nascosto{
+	display: none;
+}
+
+.titolo_risultato{
+    font-size: 30px;
+    font-weight: 700;
+    color: #7BB9B6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.linea{
+    size: 4px;
+    background-color: #7BB9B6;
+    width: 60%;
+
+}
+
+.sezione2{
+    padding: 150px 50px 150px 50px;
+}
+
+.air_container{
+    background-color: #FE9C58;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    padding:  50px 50px 50px 50px;
+}
+
+.dati_container{
+    padding: 50px 50px 50px 50px !important;
+    background-color: #FFF7EF;
+   /*background: rgba(255, 255, 255, 0.5) !important;*/
+    border-radius: 20px;
+
+}
+
+#air{
+    color: white;
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 79px;
+}
+
+#dati{
+    color: #717167;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+
+/*FOOTER*/
+
+.container_footer{
+    width: 100%;
+    margin: 0px;
+}
+
+.footerline-1{
+    background-color: #C6C3AE ;
+    height: 22px;
+    width: 100%;
+}
+.footerline-2{
+    background-color: #FFEFDF ;
+    height: 22px;
+    width: 100%;
+}
+.container_text{
+    background-color: #7DBAB7 ;
+    width: 100%;
+    padding: 50px;
+}
+
+.footer_txt{
+    color: #FFEFDF;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
